@@ -1,12 +1,12 @@
-* {
-  border: 1px solid black; }
-
 nav ul li {
   list-style-type: none;
   display: inline;
   float: right;
   padding: 0 20px;
   margin: 10px; }
+
+main .cv h1 {
+  text-align: center; }
 
 .techs h2 {
   text-align: center; }
@@ -18,9 +18,24 @@ nav ul li {
   flex-wrap: wrap; }
   .techs .container img {
     max-width: 200px;
-    max-height: 200px; }
+    max-height: 200px;
+    padding: 2px; }
 
 footer p {
   text-align: center; }
+
+.gallery {
+  display: flex;
+  flex-direction: column; }
+  .gallery h2 {
+    text-align: center; }
+  .gallery .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .gallery .row div {
+      max-width: 300px;
+      max-height: 300px; }
 
 /*# sourceMappingURL=style.css.map */
